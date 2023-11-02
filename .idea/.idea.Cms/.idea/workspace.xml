@@ -10,35 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a32b1124-c673-4593-831a-76b3ae618bff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.ECommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.ECommerce.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.ECommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.ECommerce.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/bin/Debug/net7.0/Cms.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/obj/Debug/net7.0/Cms.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/obj/Debug/net7.0/Cms.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/obj/Debug/net7.0/Cms.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/obj/Debug/net7.0/Cms.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/obj/Debug/net7.0/Cms.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/obj/Debug/net7.0/Cms.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/bin/Debug/net7.0/Cms.ECommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/bin/Debug/net7.0/Cms.ECommerce.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/bin/Debug/net7.0/Cms.ECommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/bin/Debug/net7.0/Cms.ECommerce.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/bin/Debug/net7.0/Cms.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/bin/Debug/net7.0/Cms.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/bin/Debug/net7.0/Cms.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/bin/Debug/net7.0/Cms.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/Cms.ECommerce.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/Cms.ECommerce.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/Cms.ECommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/Cms.ECommerce.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/Cms.ECommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/Cms.ECommerce.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/ref/Cms.ECommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/ref/Cms.ECommerce.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/refint/Cms.ECommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/obj/Debug/net7.0/refint/Cms.ECommerce.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Setup/obj/Debug/net7.0/Cms.Setup.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Setup/obj/Debug/net7.0/Cms.Setup.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Setup/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Setup/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/bin/Debug/net7.0/Cms.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/bin/Debug/net7.0/Cms.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/bin/Debug/net7.0/Cms.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/bin/Debug/net7.0/Cms.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/obj/Debug/net7.0/Cms.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/obj/Debug/net7.0/Cms.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/obj/Debug/net7.0/Cms.Shared.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/obj/Debug/net7.0/Cms.Shared.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/obj/Debug/net7.0/ref/Cms.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/obj/Debug/net7.0/ref/Cms.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/obj/Debug/net7.0/refint/Cms.Shared.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/obj/Debug/net7.0/refint/Cms.Shared.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cms.Shared/Shared/Controllers/SharedController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Shared/Controllers/SharedController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,28 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "<unknown>",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/damirbekuulubekzatbekzat/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/damirbekuulubekzatbekzat/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/damirbekuulubekzatbekzat/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/damirbekuulubekzatbekzat/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/damirbekuulubekzatbekzat/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/damirbekuulubekzatbekzat/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Cms.Api: https">
     <configuration name="Cms.Setup" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -184,6 +158,8 @@
       <workItem from="1698638301813" duration="1773000" />
       <workItem from="1698718514216" duration="2335000" />
       <workItem from="1698891575697" duration="1434000" />
+      <workItem from="1698893015606" duration="2135000" />
+      <workItem from="1698895163873" duration="2209000" />
     </task>
     <task id="LOCAL-00001" summary="many-to-many">
       <option name="closed" value="true" />

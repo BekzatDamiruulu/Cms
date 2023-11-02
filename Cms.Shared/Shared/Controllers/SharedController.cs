@@ -19,7 +19,7 @@ public abstract class SharedController<TEntity> : ControllerBase
     {
         return entities;
     }
-    [HttpPost] 
+    [HttpPost]
     public virtual async Task<TEntity> Create([FromBody] TEntity entity)
     {
         Entities.Add(entity);
@@ -44,14 +44,15 @@ public abstract class SharedController<TEntity> : ControllerBase
     }
     
     [HttpGet]
-    public async Task<List<TEntity>> Read(string filter = "", int pageIndex = 1, int pageSize = 20,
+    public virtual async Task<List<TEntity>> Read(string filter = "", int pageIndex = 1, int pageSize = 20,
         string orderField = "Id", string orderType = "ASC")
     {
         return await Entities
             .Filter(filter, FilterPredicate)
+            .Paginate(pageIndex,pageSize)
+            .Sort(orderField,orderType)
             .ToListAsync();
     }
-
     [HttpPut]
     public virtual async Task<IActionResult> Update([FromBody]TEntity entity)
     {
