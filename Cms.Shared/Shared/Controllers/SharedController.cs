@@ -1,3 +1,5 @@
+using System.Reflection;
+using System.Text.Json;
 using Cms.Shared.Shared.Entities;
 using Cms.Shared.Shared.Models;
 using Cms.Shared.Shared.Utils;
@@ -54,13 +56,24 @@ public abstract class SharedController<TEntity> : ControllerBase
             .ToListAsync();
     }
     [HttpPut]
-    public virtual async Task<IActionResult> Update([FromBody]TEntity entity)
+    public virtual async Task<IActionResult> UpdateField(long id,[FromBody] List<JsonModel> jsonModels )
     {
         try
         {
-            Entities.Update(entity);
+            var resultEntity = await Entities.FindAsync(id);
+            if (resultEntity == null) throw new NullReferenceException($"{typeof(TEntity)} не найден");
+            Type type = typeof(TEntity);
+            foreach (var model in jsonModels)
+            {
+                var propName = model.Name;
+                var property = type.GetProperty(propName,BindingFlags.Instance| BindingFlags.Public);
+                if (property == null) throw new NullReferenceException();
+                if (!property.CanWrite) throw new Exception($"{property.Name} не доступно для записи ");
+                property.SetValue(model.Value, resultEntity);
+            }
+            Entities.Update(resultEntity);
             await DataContext.SaveChangesAsync();
-            return Ok();
+            return Ok(resultEntity);
         }
         catch (Exception e)
         {

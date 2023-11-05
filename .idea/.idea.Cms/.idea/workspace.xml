@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a32b1124-c673-4593-831a-76b3ae618bff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cms.Shared/Shared/Controllers/SharedController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Shared/Controllers/SharedController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/85444b87515266794f71448c4f4bd6c1bde1cbd93fe1721b9221ae0dd4ebc93/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf9021a960b74107a7e141aa06bc9d8a0a53c929178c2fb95b1597be8af8dc/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e52a70dae11948fa5bfb33d03fd2e7d9b6ece182647aa4d9b1221413ac57dc7/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/damirbekuulubekzatbekzat/RiderProjects/Cms/Cms.ECommerce/Modules/Cart/Controllers/CartController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/damirbekuulubekzatbekzat/RiderProjects/Cms/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/damirbekuulubekzatbekzat/RiderProjects/Cms/Cms.Shared/Shared/Controllers/SharedController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cms.Shared/Shared/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cms.Shared/Shared/ServiceCollectionExtension.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -160,6 +160,10 @@
       <workItem from="1698891575697" duration="1434000" />
       <workItem from="1698893015606" duration="2135000" />
       <workItem from="1698895163873" duration="2209000" />
+      <workItem from="1698898324314" duration="602000" />
+      <workItem from="1698978625609" duration="3632000" />
+      <workItem from="1699009726430" duration="826000" />
+      <workItem from="1699202530028" duration="2048000" />
     </task>
     <task id="LOCAL-00001" summary="many-to-many">
       <option name="closed" value="true" />
@@ -193,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698724446365</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CategoryFilter">
+      <option name="closed" value="true" />
+      <created>1698898490929</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698898490929</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +229,7 @@
     <MESSAGE value="techAlter" />
     <MESSAGE value="added SharedController" />
     <MESSAGE value="sharedController" />
-    <option name="LAST_COMMIT_MESSAGE" value="sharedController" />
+    <MESSAGE value="CategoryFilter" />
+    <option name="LAST_COMMIT_MESSAGE" value="CategoryFilter" />
   </component>
 </project>
