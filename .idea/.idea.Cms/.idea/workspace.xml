@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a32b1124-c673-4593-831a-76b3ae618bff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/Cms.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/Cms.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/Modules/Cart/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/Modules/Cart/Controllers/CartController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/Modules/Commodity/Entities/Commodity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/Modules/Commodity/Entities/Commodity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/Modules/Image/Controllers/ImageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Modules/Image/Controllers/ImageController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/Modules/UserProfile/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Modules/UserProfile/Controllers/AccountController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/Shared/Controllers/SharedController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Shared/Controllers/SharedController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/Shared/ServiceCollectionExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Shared/ServiceCollectionExtension.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a32b1124-c673-4593-831a-76b3ae618bff" name="Changes" comment="added GetProfile from token" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +34,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a8c1fe88d6a1b8f7ecd56d572338332052b8991b8526f478305d19145cd58/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf9021a960b74107a7e141aa06bc9d8a0a53c929178c2fb95b1597be8af8dc/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e52a70dae11948fa5bfb33d03fd2e7d9b6ece182647aa4d9b1221413ac57dc7/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/damirbekuulubekzatbekzat/RiderProjects/Cms/Cms.Shared/Modules/UserProfile/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cms.Shared/Shared/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cms.Shared/Shared/ServiceCollectionExtension.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -181,7 +170,7 @@
       <workItem from="1699458520765" duration="685000" />
       <workItem from="1699499440846" duration="4125000" />
       <workItem from="1699882925178" duration="2030000" />
-      <workItem from="1699929875075" duration="5208000" />
+      <workItem from="1699929875075" duration="5842000" />
     </task>
     <task id="LOCAL-00001" summary="many-to-many">
       <option name="closed" value="true" />
@@ -231,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699204607403</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added GetProfile from token">
+      <option name="closed" value="true" />
+      <created>1699938936079</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699938936079</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +254,7 @@
     <MESSAGE value="sharedController" />
     <MESSAGE value="CategoryFilter" />
     <MESSAGE value="JSONModel" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSONModel" />
+    <MESSAGE value="added GetProfile from token" />
+    <option name="LAST_COMMIT_MESSAGE" value="added GetProfile from token" />
   </component>
 </project>
