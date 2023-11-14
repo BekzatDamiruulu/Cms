@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Cms.ECommerce.Modules.Category.Controllers;
 
 [ApiController]
-[Route("category/api/[controller]")]
+[Route("api/[controller]")]
 public class CategoryController : SharedController<Entities.Category>
 {
     public CategoryController( DataContext dataContext) : base( dataContext)

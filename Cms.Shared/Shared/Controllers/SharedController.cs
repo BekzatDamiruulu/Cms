@@ -1,5 +1,6 @@
 using System.Reflection;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using Cms.Shared.Shared.Entities;
 using Cms.Shared.Shared.Models;
 using Cms.Shared.Shared.Utils;
@@ -55,7 +56,7 @@ public abstract class SharedController<TEntity> : ControllerBase
             .Sort(orderField,orderType)
             .ToListAsync();
     }
-    [HttpPut]
+    [HttpPatch("{id:long}")]
     public virtual async Task<IActionResult> UpdateField(long id,[FromBody] List<JsonModel> jsonModels )
     {
         try
@@ -66,10 +67,17 @@ public abstract class SharedController<TEntity> : ControllerBase
             foreach (var model in jsonModels)
             {
                 var propName = model.Name;
-                var property = type.GetProperty(propName,BindingFlags.Instance| BindingFlags.Public);
-                if (property == null) throw new NullReferenceException();
+                var property = type.GetProperty(propName,BindingFlags.Instance| BindingFlags.Public | BindingFlags.IgnoreCase);
+                if (property == null) throw new NullReferenceException("проперти не найден");
                 if (!property.CanWrite) throw new Exception($"{property.Name} не доступно для записи ");
-                property.SetValue(model.Value, resultEntity);
+
+                var propType = property.PropertyType;
+                var value = model.Value.Deserialize(propType,new JsonSerializerOptions()
+                {
+                    NumberHandling = JsonNumberHandling.AllowReadingFromString |
+                                     JsonNumberHandling.WriteAsString
+                });
+                property.SetValue(resultEntity,value );
             }
             Entities.Update(resultEntity);
             await DataContext.SaveChangesAsync();

@@ -1,24 +1,38 @@
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using Cms.Shared.Modules.UserProfile.Models;
 using Cms.Shared.Modules.UserProfile.Services;
+using Cms.Shared.Shared;
 using Cms.Shared.Shared.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cms.Shared.Modules.UserProfile.Controllers;
 
 [ApiController]
 [Route("api/v1/[controller]")]
-[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "Administrator")]
+[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
 public class AccountController : ControllerBase
 {
     private readonly UserService _userService;
+    private readonly GetProfileService _getProfileService;
 
-    public AccountController(UserService userService)
+    public AccountController(UserService userService, GetProfileService getProfileService)
     {
         _userService = userService;
+        _getProfileService = getProfileService;
     }
 
+    [HttpGet("/getProfile")]
+    public  IActionResult GetUser()
+    {
+        if (_getProfileService.GetProfile() == null) return BadRequest();
+        return Ok(_getProfileService.GetProfile());
+    }
+    
     [HttpPost("register")]
     public async Task<IActionResult> RegisterUser([FromBody] RegisterModel model)
     {
@@ -32,7 +46,6 @@ public class AccountController : ControllerBase
             return BadRequest(new ErrorResponse(e));
         }
     }
-    
     
     [HttpPost("login")]
     [AllowAnonymous]

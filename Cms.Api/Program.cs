@@ -12,8 +12,8 @@ builder.Services.AddCors(options =>
             b.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
         });
 });
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddControllers();
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddServices(builder.Configuration,new List<Assembly>(){ECommerceAssemblyProvider.GetECommerceAssembly()});

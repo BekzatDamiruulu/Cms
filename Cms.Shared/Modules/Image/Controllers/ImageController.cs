@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 namespace Cms.Shared.Modules.Image.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class ImageController : ControllerBase
 { 
     private readonly ImageService _service;
@@ -32,7 +32,7 @@ public class ImageController : ControllerBase
             return BadRequest(e.Message);
         }
     }
-    [HttpGet]
+    [HttpGet("{imageId:long}")]
     public async Task<IActionResult> GetById(long imageId)
     {
         try

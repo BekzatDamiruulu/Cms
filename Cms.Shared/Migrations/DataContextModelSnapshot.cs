@@ -180,7 +180,7 @@ namespace Cms.Shared.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<long>("ImageId")
+                    b.Property<long?>("ImageId")
                         .HasColumnType("bigint");
 
                     b.Property<DateTime>("LastUpdate")
@@ -711,9 +711,7 @@ namespace Cms.Shared.Migrations
                 {
                     b.HasOne("Cms.Shared.Modules.Image.Entities.Image", "Picture")
                         .WithMany()
-                        .HasForeignKey("ImageId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ImageId");
 
                     b.Navigation("Picture");
                 });

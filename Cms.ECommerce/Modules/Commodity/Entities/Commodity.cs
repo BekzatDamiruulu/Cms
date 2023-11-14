@@ -13,7 +13,7 @@ public class Commodity : Entity
     public string UnitOfMass { get; set; } = null!;
     public int AmountOfSet { get; set; }
     public int Price { get; set; }
-    public long ImageId { get; set; }
+    public long? ImageId { get; set; }
     [JsonIgnore]
     public Cms.Shared.Modules.Image.Entities.Image? Picture { get; set; } 
     protected override int GetClassId() => ClassNames.Commodity;

@@ -17,6 +17,7 @@ public static class ServiceCollectionExtension
     {
         serviceCollection.AddSingleton(assemblies);
         serviceCollection.AddScoped<DataContext>();
+        serviceCollection.AddScoped<GetProfileService>();
         serviceCollection.AddScoped<UserService>();
         serviceCollection.AddScoped<ImageService>();
         serviceCollection.AddScoped<InitializerService>();
