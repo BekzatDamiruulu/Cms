@@ -19,31 +19,13 @@ public class GetProfileService
             _dataContext = dataContext;
         }
     
-    public object? GetProfile()
+    public object GetProfile()
     {
-        try
-        {
-            string? jwtToken = _context?.Request.Headers["Authorization"];
-            if(jwtToken == null)  throw new Exception("token is null");
-            jwtToken = jwtToken.Replace("Bearer ", string.Empty);
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var jsonToken = tokenHandler.ReadToken(jwtToken) as JwtSecurityToken;
-            if (jsonToken != null)
-            {
-                var claims =  jsonToken.Claims;
-                var name = claims.FirstOrDefault(c=>c.Type == ClaimTypes.Name)?.Value;
-                if (name == null) throw new Exception("name is null");
-                var user = _dataContext.Set<IdentityUser>().FirstOrDefault(u=>u.UserName == name);
-                if (user == null) throw new NullReferenceException("user is null");
-                var profile = _dataContext.Set<Entities.UserProfile>().FirstOrDefault(pr => pr.UserId == user.Id);
-                if(profile ==null)  throw new NullReferenceException("profile is null");
-                return new { Email = name, Profile=profile};
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Exception: {ex.Message}");
-        }
-        return null;
+        var userName = _context?.User.Identity?.Name;
+        var user = _dataContext.Set<IdentityUser>().FirstOrDefault(u=>u.UserName == userName);
+        if (user == null) throw new NullReferenceException("user is null");
+        var profile = _dataContext.Set<Entities.UserProfile>().FirstOrDefault(pro=>pro.UserId == user.Id);
+        if(profile == null)throw new NullReferenceException("profile is null");
+        return new {Email = userName,Profile=profile};
     }
 }

@@ -19,18 +19,16 @@ public class AccountController : ControllerBase
 {
     private readonly UserService _userService;
     private readonly GetProfileService _getProfileService;
-
     public AccountController(UserService userService, GetProfileService getProfileService)
     {
         _userService = userService;
         _getProfileService = getProfileService;
     }
 
-    [HttpGet("/getProfile")]
+    [HttpGet("getProfile")]
     public  IActionResult GetUser()
     {
-        if (_getProfileService.GetProfile() == null) return BadRequest();
-        return Ok(_getProfileService.GetProfile());
+       return Ok(_getProfileService.GetProfile());
     }
     
     [HttpPost("register")]
