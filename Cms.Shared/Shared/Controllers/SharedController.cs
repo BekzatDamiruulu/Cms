@@ -47,7 +47,7 @@ public abstract class SharedController<TEntity> : ControllerBase
     }
     
     [HttpGet]
-    public virtual async Task<List<TEntity>> Read(string filter = "", int pageIndex = 1, int pageSize = 20,
+    public virtual async Task<List<TEntity>> Read(string? filter = "", int pageIndex = 1, int pageSize = 20,
         string orderField = "Id", string orderType = "ASC")
     {
         return await Entities

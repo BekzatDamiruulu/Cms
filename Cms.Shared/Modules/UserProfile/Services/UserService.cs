@@ -5,7 +5,6 @@ using Cms.Shared.Modules.UserProfile.Models;
 using Cms.Shared.Shared;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
 namespace Cms.Shared.Modules.UserProfile.Services;

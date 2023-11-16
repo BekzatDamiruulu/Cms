@@ -24,12 +24,12 @@ public class CategoryController : SharedController<Entities.Category>
                     return entities.Where(e => e.Id == intId);
                 }
                 break;
+            default:
+                
+                return entities;
         }
         return entities;
     }
     
-    public override Task<List<Entities.Category>> Read(string filter = @"[{""name"":""Id"",""value"":""1""}]", int pageIndex = 1, int pageSize = 20, string orderField = "Id", string orderType = "ASC")
-    {
-        return base.Read(filter, pageIndex, pageSize, orderField, orderType);
-    }
+   
 }

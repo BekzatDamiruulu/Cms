@@ -11,7 +11,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a32b1124-c673-4593-831a-76b3ae618bff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cms.Shared/Modules/UserProfile/Controllers/AccountController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Modules/UserProfile/Controllers/AccountController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cms.ECommerce/Modules/Commodity/Entities/Commodity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.ECommerce/Modules/Commodity/Entities/Commodity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cms.Shared/Modules/UserProfile/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Modules/UserProfile/Services/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cms.Shared/Shared/Utils/FilterUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Cms.Shared/Shared/Utils/FilterUtils.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +35,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9b6c9e6edd2649e4bc2d0d1e47b5e48417a00/39/eeaebe57/AuthorizeAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/45b6536a08fe9d127a0855ea46c68a6609b624cf625a2793d1df32cec12858/AspNetUserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5ed45b30a9c3a77e1872fc5b285ddfce6bf01bb27504a422654b76aca9a7cf/JwtBearerDefaults.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6d52a14b9c1c7df45ec767c83673f1bd6b9b7e5c72c8062fad5bb56dcc63c13/RoleManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/720dd6e9cf95b91c9ed11cdae89598df6ee1dfd71c99632bf3cf3befadfa/UserManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/85444b87515266794f71448c4f4bd6c1bde1cbd93fe1721b9221ae0dd4ebc93/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a8c1fe88d6a1b8f7ecd56d572338332052b8991b8526f478305d19145cd58/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bf9021a960b74107a7e141aa06bc9d8a0a53c929178c2fb95b1597be8af8dc/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e52a70dae11948fa5bfb33d03fd2e7d9b6ece182647aa4d9b1221413ac57dc7/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/damirbekuulubekzatbekzat/RiderProjects/Cms/Cms.Shared/Modules/UserProfile/Controllers/AccountController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cms.Shared/Shared/Entities/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Cms.Shared/Shared/ServiceCollectionExtension.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -174,7 +177,12 @@
       <workItem from="1699499440846" duration="4125000" />
       <workItem from="1699882925178" duration="2030000" />
       <workItem from="1699929875075" duration="7944000" />
-      <workItem from="1699942878824" duration="570000" />
+      <workItem from="1699942878824" duration="1203000" />
+      <workItem from="1699949414174" duration="1830000" />
+      <workItem from="1699957830771" duration="39000" />
+      <workItem from="1700017853623" duration="2347000" />
+      <workItem from="1700134542197" duration="27000" />
+      <workItem from="1700138479678" duration="2042000" />
     </task>
     <task id="LOCAL-00001" summary="many-to-many">
       <option name="closed" value="true" />
@@ -240,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699939604153</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="user:identity">
+      <option name="closed" value="true" />
+      <created>1699943748144</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699943748144</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +284,26 @@
     <MESSAGE value="JSONModel" />
     <MESSAGE value="added GetProfile from token" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="user:identity" />
+    <option name="LAST_COMMIT_MESSAGE" value="user:identity" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs</url>
+          <line>35</line>
+          <properties documentPath="$PROJECT_DIR$/Cms.ECommerce/Modules/Category/Controllers/CategoryController.cs" initialLine="35" containingFunctionPresentation="Method 'Read'">
+            <startOffsets>
+              <option value="1180" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1181" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
